@@ -26,7 +26,7 @@ public class Hooks {
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         System.out.println("new line");
-        //This is super
+        
     }
 
     @AfterClass
