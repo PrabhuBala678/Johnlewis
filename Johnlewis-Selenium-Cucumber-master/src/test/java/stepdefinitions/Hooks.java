@@ -25,12 +25,15 @@ public class Hooks {
         driver.get(AutomationConstants.ENV_URL);
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
+        System.out.println("new line");
     }
 
     @AfterClass
     public static void closeBrowser() {
         driver.quit();
         driver = null;
+        System.out.println("new line");
+
     }
 
 
